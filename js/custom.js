@@ -1,27 +1,30 @@
+//example of alert
+//alert("hello world!");
 
+//examples of variables in an array 
 var weekdays = ['m', 't', 'w', 'th', 'f'];
 var weekend = ['s', 'sun'];
 
 //multidemisional array below
 var week = [ weekdays, weekend ];
-
 console.log( week [0][3] ); //should return th via multidimentional array
 console.log( weekdays [3] ); //should return th via 
 console.log( week [1][1] ); //should return sun via multidimentional array
 console.log( weekend [1])
 
 
-// in-class exercise
+
 var num1 = 10;
 var num2 = 20;
 var total = num1 + num2;
 console.log(total);
 
-////
+// DO NOT CHANGE THIS NAME
 var firstName = "Shannon";
 var lastName = "Miller";
-var whiteSpace = " ";
 
+// How to get a space between the name 
+var whiteSpace = " ";
 var name = firstName + whiteSpace + lastName;
 
 console.log (name)
@@ -39,6 +42,7 @@ console.log( me.lastName );
 console.log( me.birthday );
 console.log( me.interest );
 
+//This is a cheat sheat for testing
 var z = 6;
 
 if( z < 10 ){
@@ -55,9 +59,7 @@ if( z < 10 ){
 	//alert( z + "is not greater than 10")
 }
 
-
 ///
-
 
 function sayMyName( personsName ){
 	console.log("You've entered " + personsName)
@@ -72,7 +74,7 @@ function returnSomething(){
 
 
 function guessWhichDoor( doorNumber ){
-
+	debugger;
 	if( doorNumber === 1 ){
 		alert("You lost!");
 	}else if( doorNumber === 2){
