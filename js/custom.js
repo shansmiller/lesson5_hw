@@ -13,7 +13,7 @@ console.log( week [1][1] ); //should return sun via multidimentional array
 console.log( weekend [1])
 
 
-
+//Example of different data types
 var num1 = 10;
 var num2 = 20;
 var total = num1 + num2;
@@ -72,6 +72,17 @@ function returnSomething(){
 	console.log(":)");
 }
 
+//example of function
+
+function changeBackgroundColor(){
+	// changes the background color of body
+	if(document.body.style.backgroundColor === "red"){
+	document.body.style.backgroundColor = "blue";
+	}else{
+		document.body.style.backgroundColor = "red";
+	}
+	//document.body.style.backgroundColor = "red";
+}
 
 function guessWhichDoor( doorNumber ){
 	debugger;
